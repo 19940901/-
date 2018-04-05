@@ -1,1 +1,2 @@
-jacson 当json文件中以大写字母开头时需要在该json的实体类中加上注解@JsonProperty作用在字段或方法上，可以用来避免遗漏属性，同时提供对属性名称重命名，
+jackson 当json文件中以大写字母开头时需要在该json的实体类中加上注解@JsonProperty作用在字段或方法上，可以用来避免遗漏属性，同时提供对属性名称重命名，
+json.elements获取当前的root节点。json.get("name")获得当前jsonnode内的第一级节点，jsonnode.fields
